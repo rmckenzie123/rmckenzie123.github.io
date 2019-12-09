@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body{
+/*    align-content: center;*/
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 0px;
+    color: deeppink;
+/*    background-color: aqua;*/
+    
+    
+}
+
+
+
+canvas{
+    background:;
+/*
+    background-image: url(grass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+    text-align: center;
+    
+    
+}
+
+.phone{
+
+  display: block;
+  margin-left: 320px;
+  margin-right: auto;
+  width: 750px;
+  margin-bottom: -437px; 
+  height: 467px;   
+/*  position: absolute;*/
+/*
+    width: 785px;
+  margin-bottom: -435px; 
+  height: 465px; 
+    position: fixed;
+*/
+
+}
+
+#abs {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+/*
+@media (max-width:885px)
+{
+    body{
+        display: none;
+    }
+}
+*/
+
+#bd {
+    border: solid black 10px;
+}
+
+.bgi {
+    z-index: -1;
+/*    background-image: url(snakebg.jpg);*/
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: 0;
+    top: 0;
+/*    background-size: cover;*/
+    height: 100vh;
+    width: 100%;
+    margin-bottom: -100%;
+    
+    
+}
+
+
